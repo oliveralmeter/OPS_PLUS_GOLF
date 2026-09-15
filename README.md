@@ -46,3 +46,13 @@ pyinstaller app.spec
 
 Output lands in `dist/`. Build artifacts are gitignored - the prebuilt Windows
 build is attached to the releases page instead of being committed, since it is ~330 MB.
+
+## Attribution
+
+Batting data is derived from [Baseball-Reference](https://www.baseball-reference.com)
+standard batting tables, scraped with the notebook in
+[OPS_plus_Shiny](https://github.com/oliveralmeter/OPS_plus_Shiny). It is included here so
+the game runs offline, and is redistributed for non-commercial personal use. Baseball-Reference
+is a Sports Reference LLC site; please consult them directly for any other use of their data.
+
+Built with `pandas`, `matplotlib`, `ttkthemes` and `tkinter`.
