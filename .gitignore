@@ -1,0 +1,9 @@
+# PyInstaller build output - rebuild with: pyinstaller app.spec
+build/
+dist/
+*.exe
+*.zip
+
+__pycache__/
+*.pyc
+.venv/
